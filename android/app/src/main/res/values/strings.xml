@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Radar Missionário</string>
+    <string name="title_activity_main">Radar Missionário</string>
+    <string name="package_name">net.widecode.radar</string>
+    <string name="custom_url_scheme">net.widecode.radar</string>
+</resources>
