@@ -2,11 +2,16 @@
   <v-app>
     <v-main class="d-flex flex-column align-center justify-start" style="min-height: 100vh;">
       <img
-        src="@/assets/logo-juvep.png"
+        src="@/assets/logo.png"
         alt="Radar Missionário"
         style="max-width: 220px; margin: 40px auto 24px; display: block"
       />
       <Quiz />
+      <img
+        src="@/assets/logo-juvep.png"
+        alt="Radar Missionário"
+        style="max-width: 220px; margin: 40px auto 24px; display: block"
+      />
     </v-main>
   </v-app>
 </template>
