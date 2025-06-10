@@ -1,7 +1,9 @@
 <template>
-  <v-card class="pa-6 mx-auto max-w-2xl" elevation="16" rounded="lg">
-    <h2 class="text-h5 font-weight-bold mb-6" width="100%">Autoavaliação do Projeto</h2>
-    <div v-for="(pergunta, idx) in perguntas" :key="pergunta.id" class="mb-8" v-if="!finalizado">
+  <v-card class="pa-6 mx-auto" style="max-width: 42rem;" elevation="16" rounded="lg">
+    <h2 class="text-h5 font-weight-bold mb-6" width="100%">Avaliação de Modelos Missionários segundo a Missiologia Crítica Contemporânea</h2>
+    
+    <h4>Este formulário permite avaliar propostas missionárias com base na Missiologia Crítica Contemporânea inspirada em Paul Hiebert. Responda cada critério conforme a realidade do projeto analisado. A pontuação final revelará o grau de alinhamento com uma Missiologia fiel às Escrituras e sensível à cultura.</h4>
+    <div v-for="(pergunta, idx) in perguntas" :key="pergunta.id" class="my-8" v-if="!finalizado">
       <div class="mb-2 font-weight-bold text-body-1">{{ idx + 1 }}. {{ pergunta.titulo }}</div>
       <div class="mb-2">{{ pergunta.descricao }}</div>
       <v-radio-group
