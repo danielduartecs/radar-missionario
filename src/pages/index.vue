@@ -1,7 +1,7 @@
 <template>
 
-    <h2 class="text-h5 font-weight-bold mb-6" width="100%">Avaliação de Modelos Missionários segundo a Missiologia Crítica Contemporânea</h2>
-    <blockquote><p class="blockquote">Este formulário permite avaliar propostas missionárias com base na Missiologia Crítica Contemporânea inspirada em Paul Hiebert. Responda cada critério conforme a realidade do projeto analisado. A pontuação final revelará o grau de alinhamento com uma Missiologia fiel às Escrituras e sensível à cultura.</p></blockquote>
+    <h2 class="text-h5 font-weight-bold mb-6" width="100%">Avaliação de Modelos Missionários segundo a Missiologia Contemporânea Crítica </h2>
+    <blockquote><p class="blockquote">Este formulário permite avaliar propostas missionárias com base na Missiologia Contemporânea Crítica inspirada em Paul Hiebert. Responda cada critério conforme a realidade do projeto analisado. A pontuação final revelará o grau de alinhamento com uma Missiologia fiel às Escrituras e sensível à cultura.</p></blockquote>
     <div v-for="(pergunta, idx) in perguntas" :key="pergunta.id" class="my-8" v-if="!finalizado">
       <div class="mb-2 font-weight-bold text-body-1" style="color: #157ac3;">{{ idx + 1 }}. {{ pergunta.titulo }}</div>
       <div class="mb-2" style="color: #00A551;">{{ pergunta.descricao }}</div>
