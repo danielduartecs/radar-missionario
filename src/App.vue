@@ -18,6 +18,9 @@
         <v-btn variant="flat" to="/" size="x-small">Início</v-btn>
         <v-btn variant="flat" to="/politica" size="x-small">Política de Privacidade</v-btn>
       </div>
+      <div class="mt-6">
+        
+      </div>
     </v-main>
   </v-app>
 </template>
